@@ -1,4 +1,4 @@
-# e-Library
+# E-Library
 
 ## Deskripsi
 Proyek **e-Library** adalah sebuah aplikasi berbasis web yang dikembangkan menggunakan **Django** untuk mengelola koleksi buku dalam format PDF. Aplikasi ini memungkinkan pengguna untuk mengunggah, mengedit, menghapus, serta menandai buku sebagai favorit. Selain itu, pengguna juga memiliki profil yang dapat diperbarui.
