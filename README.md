@@ -6,7 +6,7 @@ Proyek **e-Library** adalah sebuah aplikasi berbasis web yang dikembangkan mengg
 ## Teknologi yang Digunakan
 - **Backend**: Django 5.x
 - **Database**: SQLite (default Django database)
-- **Frontend**: HTML, CSS, JavaScript (template rendering dengan Django)
+- **Frontend**: HTML, CSS, Tailwind CSS, JavaScript
 - **File Handling**: Django FileSystemStorage
 - **PDF Processing**: PyMuPDF (pymupdf)
 - **Authentication**: Django Authentication
@@ -25,20 +25,33 @@ source .venv/bin/activate  # Untuk Mac/Linux
 .venv\Scripts\activate    # Untuk Windows
 ```
 
-### 3. Jalankan Migrasi Database
+### 3. Install Dependensi
+```sh
+pip install -r requirements.txt
+```
+
+### 4. Jalankan Migrasi Database
 ```sh
 python manage.py makemigrations
 python manage.py migrate
 ```
 
-### 4. Buat Superuser (Opsional)
+### 5. Buat Superuser (Opsional)
 ```sh
 python manage.py createsuperuser
 ```
+atau dapat login menggunakan:
+Email: damarasalsabila@gmail.com
+Password: damsal123
 
-### 5. Jalankan Server
+### 6. Jalankan Server
 ```sh
 python manage.py runserver
+```
+
+### 6. Jalankan Tailwind di terminal berbeda
+```sh
+python manage.py tailwind start
 ```
 
 Akses aplikasi di **http://127.0.0.1:8000/**
